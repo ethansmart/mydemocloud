@@ -3,17 +3,17 @@
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
 		<groupId>com.ethan.springcloud</groupId>
-		<artifactId>microservicecloud</artifactId>
+		<artifactId>mydemocloud</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
 
-	<artifactId>microservicecloud-consumer-dept-feign</artifactId>
+	<artifactId>mydemocloud-consumer-dept-feign</artifactId>
 
 
 	<dependencies>
 		<dependency><!-- 自己定义的api -->
 			<groupId>com.ethan.springcloud</groupId>
-			<artifactId>microservicecloud-api</artifactId>
+			<artifactId>mydemocloud-api</artifactId>
 			<version>${project.version}</version>
 		</dependency>
 		<dependency>

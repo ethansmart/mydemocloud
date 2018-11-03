@@ -5,11 +5,11 @@
 
 	<parent>
 		<groupId>com.ethan.springcloud</groupId>
-		<artifactId>microservicecloud</artifactId>
+		<artifactId>mydemocloud</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
 
-	<artifactId>microservicecloud-zuul-gateway-9527</artifactId>
+	<artifactId>mydemocloud-zuul-gateway-9527</artifactId>
 
 	<dependencies>
 		<!-- zuul路由网关 -->
@@ -38,7 +38,7 @@
 		<!-- 日常标配 -->
 		<dependency>
 			<groupId>com.ethan.springcloud</groupId>
-			<artifactId>microservicecloud-api</artifactId>
+			<artifactId>mydemocloud-api</artifactId>
 			<version>${project.version}</version>
 		</dependency>
 		<dependency>

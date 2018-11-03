@@ -4,17 +4,17 @@
 
 	<parent>
 		<groupId>com.ethan.springcloud</groupId>
-		<artifactId>microservicecloud</artifactId>
+		<artifactId>mydemocloud</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
 
-	<artifactId>microservicecloud-consumer-hystrix-dashboard</artifactId>
+	<artifactId>mydemocloud-consumer-hystrix-dashboard</artifactId>
 
 	<dependencies>
 		<!-- 自己定义的api -->
 		<dependency>
 			<groupId>com.ethan.springcloud</groupId>
-			<artifactId>microservicecloud-api</artifactId>
+			<artifactId>mydemocloud-api</artifactId>
 			<version>${project.version}</version>
 		</dependency>
 		<dependency>

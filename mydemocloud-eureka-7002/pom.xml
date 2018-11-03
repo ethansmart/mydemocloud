@@ -3,10 +3,10 @@
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
 		<groupId>com.ethan.springcloud</groupId>
-		<artifactId>microservicecloud</artifactId>
+		<artifactId>mydemocloud</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
-	<artifactId>microservicecloud-eureka-7002</artifactId>
+	<artifactId>mydemocloud-eureka-7002</artifactId>
 
 
 	<dependencies>

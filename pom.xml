@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.ethan.springcloud</groupId>
-	<artifactId>microservicecloud</artifactId>
+	<artifactId>mydemocloud</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<!-- 这里的打包类型是pom -->
 	<packaging>pom</packaging>
@@ -69,7 +69,7 @@
 	</dependencyManagement>
 
 	<build>
-		<finalName>microservicecloud</finalName>
+		<finalName>mydemocloud</finalName>
 		<resources>
 			<resource>
 				<directory>src/main/resources</directory>
@@ -91,22 +91,22 @@
 
 
 	<modules>
-		<module>microservicecloud-api</module>
-		<module>microservicecloud-provider-dept-8001</module>
-		<module>microservicecloud-consumer-dept-80</module>
-		<module>microservicecloud-eureka-7001</module>
-		<module>microservicecloud-eureka-7002</module>
-		<module>microservicecloud-eureka-7003</module>
-		<module>microservicecloud-provider-dept-8002</module>
-		<module>microservicecloud-provider-dept-8003</module>
-		<module>microservicecloud-consumer-dept-feign</module>
-		<module>microservicecloud-provider-dept-hystrix-8001</module>
-		<module>microservicecloud-consumer-hystrix-dashboard</module>
-		<module>microservicecloud-zuul-gateway-9527</module>
-		<module>microservicecloud-config-3344</module>
-		<module>microservicecloud-config-client-3355</module>
-		<module>microservicecloud-config-eureka-client-7001</module>
-		<module>microservicecloud-config-dept-client-8001</module>
+		<module>mydemocloud-api</module>
+		<module>mydemocloud-provider-dept-8001</module>
+		<module>mydemocloud-consumer-dept-80</module>
+		<module>mydemocloud-eureka-7001</module>
+		<module>mydemocloud-eureka-7002</module>
+		<module>mydemocloud-eureka-7003</module>
+		<module>mydemocloud-provider-dept-8002</module>
+		<module>mydemocloud-provider-dept-8003</module>
+		<module>mydemocloud-consumer-dept-feign</module>
+		<module>mydemocloud-provider-dept-hystrix-8001</module>
+		<module>mydemocloud-consumer-hystrix-dashboard</module>
+		<module>mydemocloud-zuul-gateway-9527</module>
+		<module>mydemocloud-config-3344</module>
+		<module>mydemocloud-config-client-3355</module>
+		<module>mydemocloud-config-eureka-client-7001</module>
+		<module>mydemocloud-config-dept-client-8001</module>
 	</modules>
 
 </project>
