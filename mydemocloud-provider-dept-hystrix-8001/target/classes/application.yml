@@ -34,7 +34,7 @@ eureka:
 info:
   app.name: ethan-microservicecloud
   company.name: www.ethan.com
-  build.artifactId: microservicecloud-provider-dept-hystrix-8001
+  build.artifactId: mydemocloud-provider-dept-hystrix-8001
   build.version: 0.0.1-SNAPSHOT
       
       

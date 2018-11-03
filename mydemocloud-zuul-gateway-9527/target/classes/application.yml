@@ -26,6 +26,6 @@ zuul:
 info:
   app.name: ethan-microcloud
   company.name: www.ethan.com
-  build.artifactId: microservicecloud-zuul-gateway-9527
+  build.artifactId: mydemocloud-zuul-gateway-9527
   build.version: 0.0.1-SNAPSHOT
 
